@@ -7,5 +7,35 @@ body
   min-height:100vh;
   padding-bottom:2rem;
   margin:5%;
-  background-color: goldenrod; 
+  font-family: 'Italianno', cursive;
+  font-size: 2rem;
+}
+
+.background {
+    background: linear-gradient(267deg, #f30505, #cbd70e, #393a28);
+    background-size: 600% 600%;
+    -webkit-animation: TestBG 17s ease infinite;
+    -moz-animation: TestBG 17s ease infinite;
+    -o-animation: TestBG 17s ease infinite;
+    animation: TestBG 17s ease infinite;
+}
+@-webkit-keyframes TestBG {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+@-moz-keyframes TestBG {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+@-o-keyframes TestBG {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+@keyframes TestBG {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
 }
